@@ -1,0 +1,28 @@
+# Gradle files
+.gradle/
+build/
+out/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# Run directories
+run/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Minecraft specific
+*.jar
+*.log
+
+# Other
+*.class
+*.swp
+*.swo
+*~
