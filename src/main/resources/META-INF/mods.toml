@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="bossmods"
+version="1.0.0"
+displayName="Boss Animation Mod"
+logoFile="icon.png"
+credits="Created with GeckoLib"
+authors="Example Author"
+description="""
+An animated boss mod for Minecraft using GeckoLib.
+"""
+
+[[dependencies.bossmods]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.bossmods]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.bossmods]]
+    modId="geckolib"
+    mandatory=true
+    versionRange="[4.0,)"
+    ordering="NONE"
+    side="BOTH"
